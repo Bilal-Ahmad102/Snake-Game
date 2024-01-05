@@ -1,6 +1,17 @@
-## Getting Started
+## Snake Game
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+This Game Had three modes:
+- `single player`: you play as snake 
+- `1v1 player`   : you can play with another player on same keyboard  
+- `Three player` : you can play with two other players on same
+
+## Key mapping
+`Snake 1 :` *UP,DOWN,LEFT,RIGHT*  can be used in single player mode
+            *Q,E,A,D* can be used to move Diagonally
+
+`Snake 2 :` *W,S,A,D*  for 1v1 mode 
+            *E,Q,LEFT_SHIFT, F* diagonal movement of snake_2 
+`Snake 3 :` *J,M,N,COMMA* for snake 3  
 
 ## Folder Structure
 
@@ -8,12 +19,3 @@ The workspace contains two folders by default, where:
 
 - `src`: the folder to maintain sources
 - `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
-# Snake-Game
