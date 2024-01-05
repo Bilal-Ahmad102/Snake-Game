@@ -9,15 +9,22 @@ This Snake Game offers three exciting modes:
 ## Key Mapping
 
 ### Snake 1 (Single Player)
-- **UP, DOWN, LEFT, RIGHT:** Move in cardinal directions.
-- **Q, E, A, D:** Diagonal movement options.
+- **Arrow keys (UP, DOWN, LEFT, RIGHT):** Move in cardinal directions.
+- **Q, E, A, D:** Diagonal movement options (NW, NE, SW, SE).
 
 ### Snake 2 (1v1 Player)
-- **W, S, A, D:** Basic movement controls.
-- **E, Q, LEFT_SHIFT, F:** Access diagonal movement for snake_2.
+- **W, A, S, D:** Basic movement controls for Player 1.
+- **E, Q, F, R:** Diagonal movement options for Player 1 (NE, NW, SE, SW).
+- **Arrow keys (UP, DOWN, LEFT, RIGHT):** Basic movement controls for Player 2.
+- **Z, C, V, B:** Diagonal movement options for Player 2 (NE, SE, SW, NW).
 
 ### Snake 3 (Three Player)
-- **J, M, N, COMMA:** Controls for snake 3.
+- **I, J, K, L:** Controls for Player 1.
+- **U, O, H, N:** Diagonal movement options for Player 1 (NW, NE, SW, SE).
+- **W, A, S, D:** Controls for Player 2.
+- **E, Q, F, R:** Diagonal movement options for Player 2 (NE, NW, SE, SW).
+- **Arrow keys (UP, DOWN, LEFT, RIGHT):** Controls for Player 3.
+- **Z, X, C, V:** Diagonal movement options for Player 3 (NW, SW, SE, NE).
 
 ## Folder Structure
 
