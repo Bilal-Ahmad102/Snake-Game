@@ -1,22 +1,29 @@
-## Snake Game
+# Snake Game
 
-This Game Had three modes:
-- `single player`: you play as snake 
-- `1v1 player`   : you can play with another player on same keyboard  
-- `Three player` : you can play with two other players on same
+This Snake Game offers three exciting modes:
 
-## Key mapping
-`Snake 1 :` **UP,DOWN,LEFT,RIGHT** :  can be used in single player mode<br> 
-            **Q,E,A,D** : can be used to move Diagonally
+- **Single Player:** Play as the snake, maneuvering through the challenges solo.
+- **1v1 Player:** Engage in a head-to-head battle with another player on the same keyboard.
+- **Three Player:** Join forces or compete against two other players on the same screen.
 
-`Snake 2 :` **W,S,A,D** :   for 1v1 mode<br>
-            **E,Q,LEFT_SHIFT, F** : diagonal movement of snake_2 
+## Key Mapping
 
-`Snake 3 :` **J,M,N,COMMA** : for snake 3  
+### Snake 1 (Single Player)
+- **UP, DOWN, LEFT, RIGHT:** Move in cardinal directions.
+- **Q, E, A, D:** Diagonal movement options.
+
+### Snake 2 (1v1 Player)
+- **W, S, A, D:** Basic movement controls.
+- **E, Q, LEFT_SHIFT, F:** Access diagonal movement for snake_2.
+
+### Snake 3 (Three Player)
+- **J, M, N, COMMA:** Controls for snake 3.
 
 ## Folder Structure
 
-The workspace contains two folders by default, where:
+Within the workspace, you'll find two default folders:
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+- `src`: Contains the source code for the game.
+- `lib`: Houses dependencies required for the game.
+
+Feel free to explore the folders and their contents to understand and modify the game as needed!
