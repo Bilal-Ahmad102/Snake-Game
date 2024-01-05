@@ -389,54 +389,35 @@ public class three_player extends JPanel implements ActionListener {
                 initGame(); // Restart the game when space is pressed after Game Over
             }
         
-            // Set the directions based on key presses
-            if (key == KeyEvent.VK_LEFT && !rightDirection) {
+            // Set the directions based on key presses for Snake 1
+            if (key == KeyEvent.VK_NUMPAD4 && !rightDirection) {
                 leftDirection = true;
                 upDirection = false;
                 downDirection = false;
-
-
-            } else if (key == KeyEvent.VK_RIGHT && !leftDirection) {
+            } else if (key == KeyEvent.VK_NUMPAD6 && !leftDirection) {
                 rightDirection = true;
                 upDirection = false;
                 downDirection = false;
-
-
-            } else if (key == KeyEvent.VK_UP && !downDirection) {
+            } else if (key == KeyEvent.VK_NUMPAD8 && !downDirection) {
                 upDirection = true;
                 rightDirection = false;
                 leftDirection = false;
-
-
-            } else if (key == KeyEvent.VK_DOWN && !upDirection) {
+            } else if (key == KeyEvent.VK_NUMPAD5 && !upDirection) {
                 downDirection = true;
                 rightDirection = false;
                 leftDirection = false;
-
-
-            }
-            if((key == KeyEvent.VK_O) && (!leftDirection && !downDirection) ){
-              rightDirection = true;
-              upDirection = true;
-
-            }
-            
-            if((key == KeyEvent.VK_I) && (!rightDirection && !downDirection) ){
-              leftDirection = true;
-              upDirection = true;
-
-            }
-
-            if((key == KeyEvent.VK_K) && (!rightDirection && !upDirection) ){
-              leftDirection = true;
-              downDirection = true;
-
-            }
-
-            if((key == KeyEvent.VK_SEMICOLON) && (!leftDirection && !upDirection) ){
-              rightDirection = true;
-              downDirection = true;
-
+            } else if (key == KeyEvent.VK_NUMPAD7 && !rightDirection && !downDirection) {
+                leftDirection = true;
+                upDirection = true;
+            } else if (key == KeyEvent.VK_NUMPAD9 && !leftDirection && !downDirection) {
+                rightDirection = true;
+                upDirection = true;
+            } else if (key == KeyEvent.VK_NUMPAD1 && !rightDirection && !upDirection) {
+                leftDirection = true;
+                downDirection = true;
+            } else if (key == KeyEvent.VK_NUMPAD3 && !leftDirection && !upDirection) {
+                rightDirection = true;
+                downDirection = true;
             }
 
         }
