@@ -45,3 +45,8 @@ Within the workspace, you'll find two default folders:
 - `lib`: Houses dependencies required for the game.
 
 Feel free to explore the folders and their contents to understand and modify the game as needed!
+
+## ScreenShots
+![Main Menu](src/resources/Screenshot_main-menu.png)
+![Three Players Mode](src/resources/Screenshot 3_players.png)
+
