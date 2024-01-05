@@ -47,6 +47,6 @@ Within the workspace, you'll find two default folders:
 Feel free to explore the folders and their contents to understand and modify the game as needed!
 
 ## ScreenShots
-<img src="src/resources/Screenshot_main-menu.png" alt="Main Menu" width="300" height="200" />
-<img src="src/resources/Screenshot 3_players.png" alt="Three Player Mode" width="300" height="200" />
+<img src="src/resources/Screenshot_main-menu.png" alt="Main Menu" width="600" height="500" />
+<img src="src/resources/Screenshot 3_players.png" alt="Three Player Mode" width="600" height="500" />
 
