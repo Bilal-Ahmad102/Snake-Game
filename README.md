@@ -29,11 +29,11 @@ This Snake Game offers three exciting modes:
 
 **Player 2**
 - **W, A, S, D:**          Basic movement controls
-- **Q, E, F, Left_Shift:**Diagonal movement options.(UP_LEFT, UP_RIGHT, DOWN_LEFT, DOWN_LEFT). 
+- **Q, E, F, Left_Shift:** Diagonal movement options.(UP_LEFT, UP_RIGHT, DOWN_LEFT, DOWN_LEFT). 
 
 **Player 3**
 - **I, J, K, L:**          Basic movement controls
-- **U, O, H, SEMI_COLON:**Diagonal movement options.(UP_LEFT, UP_RIGHT, DOWN_LEFT, DOWN_LEFT). 
+- **U, O, H, SEMI_COLON:** Diagonal movement options.(UP_LEFT, UP_RIGHT, DOWN_LEFT, DOWN_LEFT). 
 
 
 
