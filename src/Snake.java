@@ -47,6 +47,7 @@ public class Snake extends JFrame {
         panel.add(three_players);
 
         setTitle("Snake");
+        setSize(600, 600);
         setLocationRelativeTo(null);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     }
