@@ -35,8 +35,8 @@ public class Snake_1 extends JPanel implements ActionListener {
     private Image ball;
     private Image head;
 
-    String dot_path = "src/resources/dot.png";
-    String head_path = "src/resources/head.png";
+    String dot_path = "Snake-Game/src/resources/dot.png";
+    String head_path = "Snake-Game/src/resources/head.png";
 
     public Snake_1() {
         initBoard();
