@@ -66,9 +66,9 @@ public class three_player extends JPanel implements ActionListener {
     private Image apple;
     private Image head;
 
-    String dot_path = "src/resources/dot.png";
-    String head_path = "src/resources/head.png";
-    String apple_path = "src/resources/apple.png";
+    String dot_path = "Snake-Game/src/resources/dot.png";
+    String head_path = "Snake-Game/src/resources/head.png";
+    String apple_path = "Snake-Game/src/resources/apple.png";
 
 
     public  three_player() {
